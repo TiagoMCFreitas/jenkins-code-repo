@@ -4,7 +4,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh 'docker build -t jenkins-code-repo jenkins-code-repo'
+                    sh 'ls -la'
                 }
             }
         }
